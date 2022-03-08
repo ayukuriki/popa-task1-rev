@@ -1,0 +1,411 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  color: #000;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.global-container {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 20px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.logo {
+  position: absolute;
+  display: inline-block;
+  margin: auto;
+  height: 20px;
+  width: 185px;
+}
+
+.humbergur-menu {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 11;
+}
+
+.line {
+  display: block;
+  position: fixed;
+  content: "";
+  position: absolute;
+  top: 45%;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 20px;
+  -webkit-transition: top 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+  transition: top 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+  transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  transition: top 0.2s, transform 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+}
+
+.line2 {
+  display: block;
+  position: fixed;
+  content: "";
+  position: absolute;
+  top: 15%;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 10px;
+  -webkit-transition: top 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+  transition: top 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+  transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  transition: top 0.2s, transform 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+}
+
+.line3 {
+  display: block;
+  position: fixed;
+  content: "";
+  position: absolute;
+  top: 75%;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 10px;
+  -webkit-transition: top 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+  transition: top 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+  transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  transition: top 0.2s, transform 0.2s, opacity 0.3s, -webkit-transform 0.2s;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 36px;
+  margin-right: 36px;
+  height: 20px;
+  position: relative;
+}
+
+.header-container.nav {
+  display: inline-block,flex;
+  height: 100%;
+  position: relative;
+}
+
+ul {
+  width: 718px;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 20px;
+  visibility: hidden;
+}
+
+.main-area {
+  z-index: 1;
+  background-image: url(/img/top-hero-sp.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 35px;
+  width: 100%;
+  height: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.main-container {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 535px;
+  margin-top: 330px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-contents {
+  width: 498px;
+  height: 411px;
+  margin-bottom: 50px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main-title {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  height: auto;
+  max-width: 100%;
+  height: 72px;
+}
+
+.circle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  height: 200px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.circle-image {
+  height: 200px;
+  margin-right: 8px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 20px;
+}
+
+.circle-image:last-child {
+  width: 27.5%;
+}
+
+.circle-image:first-child {
+  width: 27.5%;
+}
+
+.circle-image:nth-child(1) {
+  width: 40%;
+}
+
+.button-container {
+  display: block;
+  width: 498px;
+}
+
+.button-02 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F79214;
+  border: none;
+  border-radius: 38px;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 306px;
+  height: 64px;
+  margin-right: 15px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button-02:hover {
+  opacity: 0.8;
+}
+
+.button-03 {
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+  color: #000;
+  width: 176px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 38px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  height: 64px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button-03:hover {
+  opacity: 0.8;
+}
+
+.caption-text {
+  color: #A2A2A4;
+  font-size: 12px;
+}
+
+.aboutsection {
+  width: 100%;
+  background-color: #f69013;
+  position: relative;
+  padding: 45px 0;
+}
+
+.about-container {
+  position: absolute;
+  height: 250px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.about-contents {
+  max-width: 1140px;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.about-title {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  margin: 0;
+}
+
+.about-title span {
+  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.about-button {
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 250px;
+  color: #F79214 !important;
+  background-color: #fff;
+  position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.about-button:hover {
+  opacity: 0.8;
+}
+
+.span1 {
+  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.span2 {
+  top: -10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+/*# sourceMappingURL=mobile.css.map */

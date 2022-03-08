@@ -1,0 +1,14 @@
+
+@import "breakpoints/1081up";
+
+@media (max-width: 1080px) {
+  @import "breakpoints/1025up";
+}
+
+@media (max-width: 1024px) {
+  @import "breakpoints/768up";
+}
+
+@media (max-width: 767px) {
+  @import "breakpoints/mobile0.scss";
+}

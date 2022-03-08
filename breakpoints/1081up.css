@@ -1,0 +1,362 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  color: #000;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.global-container {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 50px;
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  display: inline-block;
+  margin: auto;
+  height: 20px;
+  width: 185px;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 36px;
+  margin-right: 36px;
+  height: 40px;
+  position: relative;
+}
+
+.header-container.nav {
+  display: inline-block,flex;
+  height: 100%;
+  position: absolute;
+}
+
+ul {
+  width: 718px;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  visibility: visible;
+}
+
+.manu-li {
+  list-style: none;
+  margin: auto;
+  margin-right: 45px;
+  display: block;
+}
+
+li a {
+  color: black;
+  width: 66px;
+  height: 22px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.span0 {
+  display: block;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.button-link {
+  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F79214;
+  border: none;
+  border-radius: 38px;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  height: 40px;
+}
+
+.button-link:hover {
+  opacity: 0.8;
+}
+
+.main-area {
+  background-image: url(/img/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 28px;
+  height: 535px;
+}
+
+.main-container {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 535px;
+  margin-top: -20px;
+}
+
+.main-contents {
+  width: 498px;
+  height: 411px;
+  margin-bottom: 50px;
+}
+
+.main-title {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: auto;
+  height: 108px;
+}
+
+.circle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+  height: 200px;
+}
+
+.circle-image {
+  height: 200px;
+  margin-right: 8px;
+}
+
+.circle-imageimg {
+  vertical-align: middle;
+  height: 200px;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 498px;
+}
+
+.button-02 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F79214;
+  border: none;
+  border-radius: 38px;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 306px;
+  height: 64px;
+  margin-right: 15px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button-02:hover {
+  opacity: 0.8;
+}
+
+.button-03 {
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+  color: #000;
+  width: 176px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 38px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  height: 64px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button-03:hover {
+  opacity: 0.8;
+}
+
+.caption-text {
+  color: #A2A2A4;
+  font-size: 12px;
+}
+
+.aboutsection {
+  width: 100%;
+  background-color: #f69013;
+  position: relative;
+  padding: 45px 0;
+}
+
+.about-container {
+  position: absolute;
+  height: 171px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.about-contents {
+  max-width: 1140px;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 53%;
+}
+
+.about-title {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  margin: 0;
+}
+
+.about-title span {
+  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.about-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 250px;
+  color: #F79214 !important;
+  background-color: #fff;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: auto;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.about-button:hover {
+  opacity: 0.8;
+}
+
+.span1 {
+  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.span2 {
+  top: -10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+/*# sourceMappingURL=1081up.css.map */
